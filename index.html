@@ -4,7 +4,22 @@
     <!-- External QA page -->
 </head>
 <body>
-    <!-- External QA page -->
+
     <h1>Hello, World!</h1>
+     <script>
+        (function(d,t) {
+          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src="https://test.ca.digital-front-door.dev.gcp.trchq.com/embed.js"
+          s.parentNode.insertBefore(g,s);
+          g.onload=function(){
+            new window.VirtualCareMessengerEncrypted({
+              domain: 'https://test.ca.digital-front-door.dev.gcp.trchq.com',
+              ws:  'wss://test.ca.digital-front-door.dev.gcp.trchq.com/cable',
+              app_id: "GQ4tw1HLVMhyA8u3TEbcVBFm",
+              lang: "en" 
+            })
+          }
+        })(document,"script");
+      </script>
 </body>
 </html>
