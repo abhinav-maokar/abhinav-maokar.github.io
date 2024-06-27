@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- External QA page -->
+</head>
+<body>
+    <!-- External QA page -->
+    <h1>Hello, World!</h1>
+</body>
+</html>
